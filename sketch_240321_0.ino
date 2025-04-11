@@ -7,7 +7,7 @@
 LiquidCrystal_I2C mylcd(0x27, 16, 2);
 
 //set ports of two servos to digital 9 and 10
-Servo servo_10;
+Servo servo_10;//added a comment by Volochai
 Servo servo_9;
 
 volatile int btn1_num;//set variable btn1_num
